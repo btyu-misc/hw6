@@ -3,6 +3,8 @@
 #include <cstdlib>
 #include <string>
 
+#include <ctime>
+
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -12,6 +14,13 @@ int main(int argc, char* argv[])
         return 1;
     }
 
+    for (int i = 0; i < 26; i++) {
+        cout << static_cast<char>(i + 'a');
+    }
+    for (int i = 0; i < 10; i++) {
+        cout << static_cast<char>(48 + i);
+    }
+    cout << endl;
     // use debug r values so we get repeated results
     MyStringHash h1(true);
 
