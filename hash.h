@@ -26,9 +26,9 @@ struct MyStringHash {
             s += static_cast<char>(tolower(k[i]));
         }
 
-        //std::cout << "lower case string: " << s << std::endl;
-        //size_t p = s.size() - 6;
-        //std::cout << "i = " << p << std::endl;
+        /*std::cout << "lower case string: " << s << std::endl;
+        size_t p = s.size() - 6;
+        std::cout << "i = " << p << std::endl;*/
 
         int cur = 4;
 
